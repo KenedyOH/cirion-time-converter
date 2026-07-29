@@ -1,1 +1,1 @@
-console.log("Proyecto iniciado");
+console.log("Conversor Horario Cirion iniciado");
