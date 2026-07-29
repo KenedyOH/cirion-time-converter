@@ -12,8 +12,13 @@ body {
 
 h1 {
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    text-align: center;
     margin-bottom: 30px;
-    color: #1f2937;
+    color: #666;
 }
 
 .contenedor {
@@ -24,18 +29,14 @@ h1 {
 }
 
 .plataforma {
+    width: 250px;
     background: white;
-    width: 260px;
     padding: 20px;
     border-radius: 12px;
 
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 
     transition: 0.3s;
-}
-
-.plataforma:hover {
-    transform: translateY(-3px);
 }
 
 .plataforma h2 {
@@ -46,21 +47,19 @@ h1 {
 
 .plataforma label {
     display: block;
+    margin-top: 12px;
     margin-bottom: 5px;
-    margin-top: 15px;
     font-weight: bold;
 }
 
 .plataforma input {
     width: 100%;
     padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #d1d5db;
 }
 
-.plataforma input:focus {
-    outline: none;
-    border-color: #2563eb;
+.activa {
+    border: 3px solid #2563eb;
+    background: #eff6ff;
 }
 
 @media(max-width:1100px) {
