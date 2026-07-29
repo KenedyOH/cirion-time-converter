@@ -1,56 +1,59 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
-body {
-    background: #f4f6f9;
-    font-family: Arial, sans-serif;
-    padding: 30px;
+body{
+font-family:Arial,sans-serif;
+background:#f3f4f6;
+padding:30px;
 }
 
-h1 {
-    text-align: center;
-    margin-bottom: 10px;
+h1{
+text-align:center;
+margin-bottom:10px;
 }
 
-.subtitulo {
-    text-align: center;
-    margin-bottom: 30px;
+.subtitulo{
+text-align:center;
+margin-bottom:30px;
 }
 
-.contenedor {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
+.contenedor{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
 }
 
-.plataforma {
-    width: 250px;
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+.plataforma{
+width:260px;
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+transition:0.3s;
 }
 
-.plataforma h2 {
-    text-align: center;
-    margin-bottom: 15px;
+.plataforma h2{
+text-align:center;
+margin-bottom:15px;
 }
 
-.plataforma label {
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 5px;
+.plataforma label{
+display:block;
+margin-top:12px;
+margin-bottom:5px;
 }
 
-.plataforma input {
-    width: 100%;
-    padding: 8px;
+.plataforma input{
+width:100%;
+padding:10px;
 }
 
-.activa {
-    border: 3px solid #2563eb;
+.activa{
+border:4px solid #2563eb;
+background:#eff6ff;
 }
