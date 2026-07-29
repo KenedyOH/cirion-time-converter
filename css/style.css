@@ -1,3 +1,43 @@
 body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    padding: 30px;
+}
 
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.plataforma {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 23%;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.plataforma h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plataforma label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.plataforma input,
+.plataforma select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
 }
