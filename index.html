@@ -1,68 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor Horario Cirion</title>
-
-    css/style.css
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-    <h1>Conversor Horario Cirion</h1>
+<h1>Conversor Horario Cirion</h1>
+<p class="subtitulo">Ingresa fecha y hora en cualquier plataforma.</p>
 
-    <p class="subtitulo">
-        Ingresa fecha y hora en cualquier plataforma.
-    </p>
+<div class="contenedor">
 
-    <div class="contenedor">
-
-        <div class="plataforma" id="card-peru">
-            <h2>PERÚ</h2>
-
-            <label>Fecha</label>
-            <input type="date" id="peru-date">
-
-            <label>Hora</label>
-            <input type="time" id="peru-time">
-        </div>
-
-        <div class="plataforma" id="card-casos">
-            <h2>CASOS</h2>
-
-            <label>Fecha</label>
-            <input type="date" id="casos-date">
-
-            <label>Hora</label>
-            <input type="time" id="casos-time">
-        </div>
-
-        <div class="plataforma" id="card-vera">
-            <h2>VERA (CDR)</h2>
-
-            <label>Fecha</label>
-            <input type="date" id="vera-date">
-
-            <label>Hora</label>
-            <input type="time" id="vera-time">
-        </div>
-
-        <div class="plataforma" id="card-occom">
-            <h2>OCCOM</h2>
-
-            <label>Fecha</label>
-            <input type="date" id="occom-date">
-
-            <label>Hora</label>
-            <input type="time" id="occom-time">
-        </div>
-
+    <div class="plataforma" id="card-peru">
+        <h2>PERÚ</h2>
+        <label>Fecha</label>
+        <input type="date" id="peru-date">
+        <label>Hora</label>
+        <input type="time" id="peru-time">
     </div>
 
-    js/app.js</script>
+    <div class="plataforma" id="card-casos">
+        <h2>CASOS</h2>
+        <label>Fecha</label>
+        <input type="date" id="casos-date">
+        <label>Hora</label>
+        <input type="time" id="casos-time">
+    </div>
 
+    <div class="plataforma" id="card-vera">
+        <h2>VERA (CDR)</h2>
+        <label>Fecha</label>
+        <input type="date" id="vera-date">
+        <label>Hora</label>
+        <input type="time" id="vera-time">
+    </div>
+
+    <div class="plataforma" id="card-occom">
+        <h2>OCCOM</h2>
+        <label>Fecha</label>
+        <input type="date" id="occom-date">
+        <label>Hora</label>
+        <input type="time" id="occom-time">
+    </div>
+
+</div>
+
+<script src="js/app.js"></script>
 </body>
-
 </html>
